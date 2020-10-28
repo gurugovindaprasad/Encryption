@@ -13,6 +13,7 @@
 		CABF88F7254945A100AF79FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABF88F5254945A100AF79FE /* Main.storyboard */; };
 		CABF88F9254945A200AF79FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABF88F8254945A200AF79FE /* Assets.xcassets */; };
 		CABF88FC254945A200AF79FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABF88FA254945A200AF79FE /* LaunchScreen.storyboard */; };
+		CABF890525496BFF00AF79FE /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF890425496BFF00AF79FE /* AES.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CABF88F8254945A200AF79FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CABF88FB254945A200AF79FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CABF88FD254945A200AF79FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABF890425496BFF00AF79FE /* AES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CABF88EF254945A100AF79FE /* AppDelegate.swift */,
 				CABF88F1254945A100AF79FE /* SceneDelegate.swift */,
 				CABF88F3254945A100AF79FE /* ViewController.swift */,
+				CABF890425496BFF00AF79FE /* AES.swift */,
 				CABF88F5254945A100AF79FE /* Main.storyboard */,
 				CABF88F8254945A200AF79FE /* Assets.xcassets */,
 				CABF88FA254945A200AF79FE /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CABF88F4254945A100AF79FE /* ViewController.swift in Sources */,
+				CABF890525496BFF00AF79FE /* AES.swift in Sources */,
 				CABF88F0254945A100AF79FE /* AppDelegate.swift in Sources */,
 				CABF88F2254945A100AF79FE /* SceneDelegate.swift in Sources */,
 			);
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
